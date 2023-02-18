@@ -1,0 +1,10 @@
+.modal__body {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.modal__body.modal__body--nopadding {
+  width: 100%;
+  padding: 1rem 1rem;
+}

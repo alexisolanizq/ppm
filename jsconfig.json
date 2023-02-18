@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@Component/*": ["./src/component/*"],
+      "@Hooks/*": ["./src/hooks/*"],
+      "@Redux/*": ["./src/redux/*"],
+      "@Services/*": ["./src/services/*"],
+      "@Const/*": ["./src/const/*"],
+      "@Utils/*": ["./src/utils/*"],
+      "@Assets/*": ["./src/assets/*"],
+      "@Pages/*": ["./src/pages/*"]
+    }
+  },
+  "exclude": ["node_modules", "build", "coverage", "dist", "lib"]
+}

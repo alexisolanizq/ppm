@@ -1,0 +1,64 @@
+.imageAvatar {
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.uploadFile {
+  position: relative;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.uploadFile input[type="file"] {
+  position: absolute;
+  z-index: 2;
+  text-indent: -99999px;
+  opacity: 0;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.uploadFile__image, .uploadFile__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.uploadFile__camera {
+  position: absolute;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.71);
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 12px 0px;
+}
+
+.uploadFile__container {
+  height: 160px;
+  max-width: 180px;
+  margin-bottom: 10px;
+  border-style: dashed;
+  background-color: rgb(250, 250, 250);
+  border-color: rgb(222, 222, 222);
+  text-align: center
+}
+
+.uploadFile__container img {
+  width: 100%;
+  height: 100%;
+}
+
+.uploadFile__container div {
+  position: absolute;
+  height: 160px;
+  max-width: 180px;
+  padding: 10px 20px;
+}

@@ -1,0 +1,93 @@
+.table > :not(:first-child) {
+  border-top: 2px solid #3333;
+}
+
+.tablegeneral {
+  position: relative;
+  z-index: 1;
+}
+
+.tablegeneral .tablegeneral__iconadd {
+  position: absolute;
+  left: -45px;
+  top: 5px;
+  z-index: 1;
+}
+
+.table__custom {
+  margin-bottom: 2rem;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.table__custom table {
+  width: 100%;
+}
+
+.table__custom table tr:nth-child(even) {
+  background: #F7F7F7;
+}
+
+.table__custom table th {
+  border-bottom: 1px solid #CCCCCC;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.table__custom table td {
+  font-size: 14px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px 8px;
+}
+
+.table__custom-border {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.table__custom-files-border {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-bottom: 0px;
+}
+
+.toolbar{
+  padding: 0.5rem;
+}
+
+.GridToolbarColumnsButtonCustom {
+  text-indent: -9999px ;
+  min-width: 40px !important;
+  border-radius: 50% !important;
+  padding: 8px !important;
+}
+
+.GridToolbarColumnsButtonCustom:hover{
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+.GridToolbarColumnsButtonCustom svg {
+  font-size: 24px !important;
+}
+
+.toolbar__search {
+  display: flex;
+  align-items: stretch;
+  border: 1px solid var(--content-color);
+  border-radius: 8px;
+  margin: .5rem 1rem;
+  overflow: hidden;
+}
+
+.toolbar__search--input input {
+  height: 100%;
+  border: none;
+  width: 100%;
+}
+
+.toolbar__search--input {
+  flex: 1;
+}

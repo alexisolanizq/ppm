@@ -1,0 +1,20 @@
+.searchList {
+  width: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.searchList__input {
+  width: 400px;
+}
+
+.searchList__input > input {
+  width: 100%;
+  font-size: 16px;
+  padding: 0px 5px;
+  height: 40px;
+  border: 1px solid var(--content-color);
+  color: var(--content-color);
+}

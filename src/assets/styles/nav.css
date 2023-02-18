@@ -1,0 +1,29 @@
+.nav-link-navbar, .navbar-links .nav-link svg path{
+  color: #fff!important;
+}
+.nav-links-group{
+  background: var(--primary-bg);
+}
+.nav-links-group a{
+  color: var(--primary-text)!important;
+}
+.nav-links-group a:hover{
+  color: var(--secondary-green)!important;
+}
+.input-group .form-control {
+  font-size: 12px;
+}
+.input-nav{
+  outline: none;
+  border: none;
+  height: 35px;
+  width: 180px;
+  padding: 0 0 0 10px;
+}
+.button-nav{
+  border: none;
+  padding: 7.5px 10px;
+}
+.button-nav svg path{
+  color: var(--primary-green);
+}

@@ -1,0 +1,25 @@
+.card .badgee {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 1;
+}
+
+.badgee {
+  border-radius: 16px;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+}
+
+.badgee.badge--success {
+  background-color: #D0F7DB;
+  color: var(--primary-green);
+}
+
+.badgee.badge--danger {
+  background-color: #F0C8C7;
+  color:#9A2B24;
+}

@@ -1,0 +1,33 @@
+.loader {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  overflow-y: hidden;
+  background-image: linear-gradient(to top, #cfd9dfb5 0%, #e2ebf0 100%);
+}
+
+.loader__content {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+
+.spiner {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #005953;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

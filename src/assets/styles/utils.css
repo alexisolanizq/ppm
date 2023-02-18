@@ -1,0 +1,55 @@
+.border-dashed {
+  border-style: dashed;
+}
+.border-custom-1 {
+  border: 1px solid #dee2e6
+}
+.border-custom-2 {
+  border: .5px solid #dee2e6
+}
+.halfCircle {
+  width: 100%;
+  height: 30%;
+  background-color: #d5d5d5;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  border-bottom: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-BreadCrumb {
+    margin-right: 1;
+}
+.icon-BreadCrumb svg {
+  width: 20px;
+  height: 20px;
+}
+.boxList-custom-1 {
+  position: relative;
+  width: 250px;
+  min-width: 280px;
+}
+.list-custom-1 {
+    background-color: white;
+    position: fixed!important;
+    overflow: auto;
+    height: 100%;
+    max-height: calc(100vh - 104px);
+}
+.ppm-search-button:hover{
+  background-color: #007a70!important;
+}
+
+.hidden{
+  display:none!important;
+}
+.note-height{
+  max-height: 330px;
+}
+button[type="submit"]:disabled{
+  background-color: var(--unable-color);
+  border: 1px solid var(--unable-color);
+}

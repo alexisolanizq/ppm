@@ -1,0 +1,26 @@
+.card.custom {
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #DCDCDC;
+  border-radius: 6px;
+  background-color: white;
+}
+.card.custom.card-not-shadow{
+  box-shadow: none;
+}
+.card__header{
+  padding: 12px 16px;
+  border-bottom: 1px solid #DCDCDC;
+}
+.card__body{
+  padding: 12px 16px;
+  flex: 1;
+}
+.card__footer {
+  border-top: 1px solid #DCDCDC;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+.catalogs .card.custom{
+  height: 100%;
+}

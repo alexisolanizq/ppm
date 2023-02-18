@@ -1,0 +1,34 @@
+.invoicing-entities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 300px));
+  gap: 15px;
+  justify-content: center;
+}
+
+.entityCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.entityCard > div {
+  height: 100%;
+  padding: 0 10px;
+}
+
+.entityCardHeader {
+  min-height: 53px;
+}
+
+p {
+  margin: 0;
+}
+
+.info-entity-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 18px;
+}
+
+.btn-close-modal-app:hover {
+  color: white;
+}

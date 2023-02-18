@@ -1,0 +1,46 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Avenir', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;
+  font-size: 14px !important;
+  background-color: var(--primary-bg);
+}
+a, a:hover{
+  text-decoration: none !important;
+}
+p{
+  margin-bottom: 0 !important;
+}
+.pointer {
+  cursor: pointer;
+}
+.actions > * {
+  cursor: pointer;
+}
+main{
+  min-height: calc(100vh - 104px);
+  background-color: #f0f0f0;
+  padding: 0px 2rem 2rem;
+}
+
+.main__content{
+  background: white;
+  min-height: 100vh;
+}
+
+fieldset legend{
+  width: unset;
+}
+ul,ol {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 0px;
+}

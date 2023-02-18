@@ -1,0 +1,181 @@
+button:focus-visible,
+button:focus,
+input:focus,
+input:focus-visible {
+  outline: none;
+}
+
+.btn-close-modal {
+  background-color: var(--content-color);
+  color: #fff;
+  width: 120px;
+  height: 35px;
+  border: none;
+}
+
+.btn-add {
+  background-color: transparent;
+  color: var(--primary-green);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+  border: 0;
+}
+
+.btn-close-modal-app {
+  background-color: var(--content-color);
+  color: #fff;
+  width: 136px;
+  height: 33px;
+  border: none;
+  font-size: 16px;
+}
+
+.btn-close-modal-app:hover {
+  background-color: var(--primary-text);
+}
+
+.btn-primary-modal {
+  background-color: var(--primary-green);
+  border: 1px solid var(--primary-green);
+  color: #fff;
+  width: auto;
+  height: 33px;
+  font-size: 16px;
+}
+.btn-primary-modal:hover {
+  background-color: var(--secondary-green);
+  border-color: var(--secondary-green);
+}
+.btn-sidebar-mail-fill {
+  border-radius: 0 50px 50px 0 !important;
+  text-align: left;
+  padding-right: 1.5rem !important;
+  display: block;
+  width: max-content;
+  min-width: max-content;
+  background-color: var(--gray-color) !important;
+  text-transform: capitalize !important;
+}
+.btn-sidebar-mail-transparent {
+  border-radius: 0 50px 50px 0;
+  text-align: left;
+  padding-right: 1.5rem;
+  display: block;
+  width: max-content;
+  min-width: max-content;
+  background-color: transparent;
+  text-transform: capitalize !important;
+}
+.green-button-color:hover,
+.green-button-color:focus,
+.green-button-color:active {
+  background: #0c7b73;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+.btn-primary {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+
+.button {
+  font-size: 18px;
+  border: 1px solid;
+  padding: 6px 10px;
+  font-weight: 500;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  text-align: center;
+}
+
+.button svg{
+  margin-right: 8px;
+}
+
+.button:hover {
+  box-shadow:1px 2px 2px 1px #8a8a8a7d;
+}
+
+.button.is-primary{
+  background-color: var(--primary-green);
+  border-color: var(--primary-green);
+  color: #fff;
+}
+
+.button.is-content{
+  background-color: var(--content-color);
+  border-color: var(--content-color);
+  color: #fff;
+}
+
+.button.is-border-primary{
+  background-color: white;
+  border-color: #028A30;
+  color: var(--primary-green);
+}
+
+.button.is-loading {
+  color: transparent !important;
+  pointer-events: none;
+  position: relative;
+}
+
+.button.is-center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button.is-loading::after {
+  -webkit-animation: spinAround 0.5s infinite linear;
+  animation: spinAround 0.5s infinite linear;
+  border: 3px solid white;
+  border-radius: 9999px;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  content: '';
+  display: block;
+  height: 1em;
+  width: 1em;
+  left: calc(50% - (1em / 2));
+  top: calc(50% - (1em / 2));
+  position: absolute !important;
+}
+
+@keyframes spinAround {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.buttonIcon{
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-green);
+  color: white;
+  border: 1px solid var(--primary-green);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonSmall {
+  height: 35px !important;
+  min-width: 130px !important;
+}
+
+.buttonNewModal {
+  width: 100%;
+  border-radius: 0px !important;
+  border: 0px;
+  border-top: 1px solid var(--primary-green);
+}

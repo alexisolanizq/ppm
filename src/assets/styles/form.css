@@ -1,0 +1,27 @@
+.formaddfield {
+  position: relative;
+}
+
+.formaddfield .MuiIconButton-root {
+  position: absolute;
+  z-index: 1;
+  left: -40px;
+  top: 10px;
+}
+
+.componentAdd > *:last-child{
+  border-radius: 0px !important;
+  position: relative;
+  z-index: 2;
+}
+
+.textfieldCustom {
+  position: relative;
+}
+
+.textfieldCustom .circular__loading {
+  position: absolute;
+  right: 1rem;
+  z-index: 1;
+  top: 15px;
+}

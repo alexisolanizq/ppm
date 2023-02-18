@@ -1,0 +1,341 @@
+@import './fonts.css';
+@import './variables.css';
+@import './global.css';
+@import './layout.css';
+@import './gridSystem.css';
+@import './form.css';
+@import './utils.css';
+@import './button.css';
+@import './icon.css';
+@import './table.css';
+@import './mui.css';
+@import './filter.css';
+
+.green-title,
+.green-color {
+  color: var(--primary-green) !important;
+}
+.secondary-green-color {
+  color: var(--secondary-green) !important;
+}
+
+.phases-table tbody tr td,
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  color: #777;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.react-confirm-alert {
+  background: transparent;
+  width: 400px;
+  height: 200px;
+  padding: 1em;
+  box-shadow: 2px 2px 5px #999;
+  text-align: center;
+}
+.red-input {
+  border-width: 1;
+  margin-bottom: 20;
+  border-color: #dc3545;
+}
+
+#toast-container > div {
+  opacity: 1;
+}
+table tr:hover {
+  cursor: pointer;
+}
+.bg-primary-green,
+.green-button-color {
+  background: var(--primary-green)!important;
+}
+.custom-bg-primary {
+  background: var(--primary-bg);
+}
+.unable-color {
+  background: var(--unable-color) !important;
+}
+.unable-color:focus {
+  border: 0;
+  outline: none;
+}
+.custom-select {
+  border-bottom: 1px solid #3333;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 150px;
+}
+.custom-select:focus-visible {
+  outline: 0;
+}
+.input-main {
+  border: 1.5px solid var(--content-color);
+  outline: none;
+  height: 49.5px;
+  width: 180px;
+  padding: 0 0 0 10px;
+}
+@media only screen and (min-width: 545px) {
+  .input-main {
+    width: 450px;
+  }
+}
+.button-main {
+  background: var(--primary-green);
+  border: none;
+  padding: 15px 20px;
+}
+.button-main svg {
+  color: white;
+  width: 14px !important;
+  height: 14px !important;
+}
+.sidebar-trade {
+  width: 250px;
+  position: fixed;
+}
+.sidebar-trade a {
+  font-weight: bold;
+}
+.navbar-toggle-btn a {
+  color: white !important;
+}
+.dropdown-toggle::after {
+  content: none;
+}
+.dropdown-toggle::before {
+  display: inline-block;
+  margin-right: 0.3em;
+  vertical-align: 0.12em;
+  content: '';
+  border-top: 0.4em solid;
+  border-right: 0.4em solid transparent;
+  border-bottom: 0;
+  border-left: 0.4em solid transparent;
+}
+.nav-links-group a{
+  color: var(--primary-text)
+}
+.nav-links-group a:hover{
+  color: var(--secondary-green);
+}
+.nav-links-group a:focus, .nav-links-group a:active{
+  color: var(--primary-green)!important;
+}
+.navbar-expand .navbar-nav .sidebar-p {
+  padding-left: 1.8em;
+}
+.sidebar-title {
+  font-size: 0.9em !important;
+}
+.phases-button-modal {
+  background-color: var(--primary-green);
+  color: #fff;
+  width: 120px;
+  height: 35px;
+  border: none;
+}
+
+.form-check-input:checked {
+  background-color: var(--primary-green);
+  border-color: var(--primary-green);
+}
+
+/* Authorities Notifications */
+
+.authorityNotification {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(3, auto);
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.authorityNotification > div {
+  border: 1px solid black;
+  min-height: 25px;
+  text-align: center;
+  padding: 9px;
+}
+
+.authorityNotification__period {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+/* Users */
+
+.userGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 300px));
+  gap: 15px;
+  justify-content: center;
+}
+
+.userInfoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 18px;
+}
+
+.userInfoBtnAction {
+  border: none;
+  background: none;
+  color: var(--primary-green) !important;
+}
+
+/* Default Notes */
+
+.defaultNotes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 300px));
+  gap: 15px;
+  justify-content: center;
+}
+
+.defaultNote {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.defaultNote > div {
+  height: 100%;
+  padding: 0 10px;
+}
+
+.defaultNote__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.defaultNote__priority {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.defaultNote__button {
+  background: none;
+  border: none;
+}
+a.nav-link{
+  color: #000 !important;
+}
+.nav-link:focus, .nav-link:hover{
+  text-decoration: underline;
+}
+
+.iconToolbar {
+  color:rgb(108,117,125);
+  font-size: 16px!important;
+}
+
+.rotateIcon{
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+
+.table > :not(:first-child) {
+  border-top: 0;
+}
+
+.modal-body{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.modal-footer{
+  border-top:none;
+}
+
+.modal-lg{
+  max-width: 570px;
+}
+
+.modal-xl{
+  max-width: 768px;
+}
+
+.fs-10{
+  font-size:1rem!important;
+}
+
+.noLabel{
+  font-size: 0!important;
+}
+
+.customFont{
+  height:100%!important;
+  font-family: 'Avenir', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ToolBarColumnsButton, .ToolBarSearchButton, .ToolBarFilterButton, .ToolBarAddButton, .EditButton{
+  width:50px!important;
+  height:50px!important;
+  min-width: 0!important;
+  border-radius:50%!important;
+}
+
+.addFixed{
+  outline: none;
+  border: none;
+  position: sticky!important;
+  bottom:0!important;
+  width:100%!important;
+  background-color:white!important;
+  margin: 0;
+  padding: 0;
+}
+
+.addFixed > div {
+  width:calc(100% - 30px)!important;
+  border-top: 1px solid var(--secondary-green);
+  color:var(--secondary-green);
+  background-color:white!important;
+  padding-top:15px;
+  padding-bottom:25px;
+  margin:0px 15px -5px 15px;
+}
+
+.menuItemFixed {
+  position: sticky;
+  bottom:0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--secondary-green);
+  color:var(--secondary-green);
+  background-color:white;
+  margin: 0px 15px;
+}
+
+.variablesTreeView {
+  flex-grow: 1;
+  overflow-y: auto;
+  max-width: 260;
+}
+
+.contentShowRecipient {
+  margin-top: 20px;
+  padding: 10px 200px;
+}
+
+.signatureContainer {
+  width: 500px;
+  height: 200px;
+  border: 1px solid #C6C6C3;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 0px 20px;
+}

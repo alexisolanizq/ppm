@@ -1,0 +1,5 @@
+export const EDITOR_API_URL = process.env.EDITOR_API_URL || ''
+export const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID || ''
+export const API_URL = process.env.API_URL || ''
+export const APP_DEBUG = process.env.APP_DEBUG && process.env.APP_DEBUG === 'true'
+export const APP_URL = process.env.APP_URL || ''

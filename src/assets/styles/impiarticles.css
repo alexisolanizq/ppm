@@ -1,0 +1,42 @@
+.impiarticles {
+  position: relative;
+  border: 1px solid rgb(196 196 197);
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  z-index: 1;
+  margin-left: 30px;
+}
+
+.impiarticles > .MuiIconButton-root {
+  position: absolute;
+  left: -40px;
+  top: calc(50% - 20px);
+}
+
+.impiarticles > .MuiIconButton-root svg {
+  color: var(--primary-green);
+}
+
+.impiarticles__table {
+  width: 100%;
+}
+
+.impiarticles__table th {
+  text-align: center;
+  color: #202020;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgb(196 196 197);
+}
+
+.impiarticles__table td {
+  text-align: center;
+}
+
+.impiarticles__select {
+  color: var(--primary-green);
+  width: 160px;
+}
+
+.impiarticles__number {
+  width: 50px;
+}

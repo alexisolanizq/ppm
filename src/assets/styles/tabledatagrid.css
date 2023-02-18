@@ -1,0 +1,6 @@
+.MuiDataGrid-row:nth-child(even) {
+  background: #F7F7F7;
+}
+.MuiDataGrid-columnSeparator{
+  display: none;
+}

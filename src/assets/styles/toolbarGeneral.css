@@ -1,0 +1,12 @@
+.toolbarGeneral {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--content-color);
+  margin-top: 24px;
+}
+
+.toolbarGeneral__icons {
+  display: flex;
+  gap: 8px;
+}
